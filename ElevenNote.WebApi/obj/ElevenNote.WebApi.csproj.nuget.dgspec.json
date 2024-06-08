@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "/Users/austinfrick/ElevenFiftyProjects/codingFoundations/ElevenNote/ElevenNote.WebApi/ElevenNote.WebApi.csproj": {}
+    "/Users/austinfrick/ElevenFiftyProjects/codingFoundations/ElevenNote/ElevenNote.WebAPI/ElevenNote.WebApi.csproj": {}
   },
   "projects": {
     "/Users/austinfrick/ElevenFiftyProjects/codingFoundations/ElevenNote/ElevenNote.Data/ElevenNote.Data.csproj": {
@@ -215,14 +215,14 @@
         }
       }
     },
-    "/Users/austinfrick/ElevenFiftyProjects/codingFoundations/ElevenNote/ElevenNote.WebApi/ElevenNote.WebApi.csproj": {
+    "/Users/austinfrick/ElevenFiftyProjects/codingFoundations/ElevenNote/ElevenNote.WebAPI/ElevenNote.WebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/austinfrick/ElevenFiftyProjects/codingFoundations/ElevenNote/ElevenNote.WebApi/ElevenNote.WebApi.csproj",
+        "projectUniqueName": "/Users/austinfrick/ElevenFiftyProjects/codingFoundations/ElevenNote/ElevenNote.WebAPI/ElevenNote.WebApi.csproj",
         "projectName": "ElevenNote.WebApi",
-        "projectPath": "/Users/austinfrick/ElevenFiftyProjects/codingFoundations/ElevenNote/ElevenNote.WebApi/ElevenNote.WebApi.csproj",
+        "projectPath": "/Users/austinfrick/ElevenFiftyProjects/codingFoundations/ElevenNote/ElevenNote.WebAPI/ElevenNote.WebApi.csproj",
         "packagesPath": "/Users/austinfrick/.nuget/packages/",
-        "outputPath": "/Users/austinfrick/ElevenFiftyProjects/codingFoundations/ElevenNote/ElevenNote.WebApi/obj/",
+        "outputPath": "/Users/austinfrick/ElevenFiftyProjects/codingFoundations/ElevenNote/ElevenNote.WebAPI/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/austinfrick/.nuget/NuGet/NuGet.Config"
@@ -281,6 +281,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[8.0.6, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[8.0.2, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
