@@ -1,0 +1,6 @@
+@ElevenNote.WebApi_HostAddress = http://localhost:5224
+
+GET {{ElevenNote.WebApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
