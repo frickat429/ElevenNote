@@ -1,11 +1,13 @@
 using ElevenNote.Data;
 using ElevenNote.Data.Entities;
+using ElevenNote.Services.User;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container. 
+builder.Services.AddScoped<IUserService, UserService>(); 
 
 //Add connection string to DbContext
 builder.Services.AddControllers();
