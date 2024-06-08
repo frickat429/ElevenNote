@@ -20,9 +20,10 @@ builder.Services.AddDefaultIdentity<UserEntity>(options =>
     options.Password.RequireLowercase = false; 
     options.Password.RequireDigit = false;
     options.Password.RequireNonAlphanumeric = false;
-}); 
+})
 
-
+.AddRoles<IdentityRole<int>>() 
+.AddEntityFrameworkStores<ApplicationDbContext>();
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
